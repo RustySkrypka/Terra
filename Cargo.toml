@@ -11,3 +11,5 @@ dht-hal-drv = "0.2.2"
 embedded-hal = { version="0.2.3", features = ["unproven"]}
 void = "1.0.2"
 spin_sleep = "0.3.7"
+serde = { version = "1.0", features = ["derive"] }
+chrono = "0.4.0"
